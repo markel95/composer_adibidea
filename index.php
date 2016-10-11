@@ -11,6 +11,9 @@ $Media = $Essence->extract('https://www.youtube.com/watch?v=XA0Mcb8cWd0');
     <header>
         <h1><?php echo $Media->title; ?></h1>
         <p>By <?php echo $Media->authorName; ?></p>
+        <br/>
+        <p>URL: <?php echo $Media->url; ?></p>
+        
     </header>
 
     <div class="player">
